@@ -9,3 +9,5 @@ class UI {
         document.getElementById('humidity').textContent = `Relative Humidity: ${data.rh} %`;
     }
 }
+
+export const ui = new UI();

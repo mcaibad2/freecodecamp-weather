@@ -1,5 +1,4 @@
 class Weather {
-
     constructor(city) {
         this.apiKey = '849099f4d39f43deaa3dbec6290923dc';
         this.city = 'Athens';
@@ -18,3 +17,5 @@ class Weather {
         this.city = city;
     }
 }
+
+export const weather = new Weather();
