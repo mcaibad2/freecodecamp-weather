@@ -15,14 +15,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 mx-auto text-center bg-primary mt-5 p-5 rounded">
-                <h1>Miami, FL</h1>
-                <h5>Mostly Cloudy</h5>
-                <h5>79.8 F (26.6 C)</h5>
+                <h1 id="city-name"></h1>
+                <h5 id='description'></h5>
+                <h5 id='temperature'></h5>
                 <ul class="list-group mt-4">
-                    <li class="list-group-item">Relative Humidity: 79%</li>
-                    <li class="list-group-item">Dewpoint: 73F (23 C)</li>
-                    <li class="list-group-item">Feels like: 84 F (29 C)</li>
-                    <li class="list-group-item">Wind: From the SSE at 6.0 MPH</li>
+                    <li id="humidity" class="list-group-item"></li>
+                    <li id="dewpoint" class="list-group-item"></li>
+                    <li id="feels-like" class="list-group-item"></li>
+                    <li id="wind" class="list-group-item"></li>
                 </ul>
                 <button type="button" class="btn mt-4" data-toggle="modal" data-target="#locModal">Change Location</button>
             </div>
@@ -64,6 +64,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
             crossorigin="anonymous"></script>
         <script src="weather.js"></script>
+        <script src="ui.js"></script>
         <script src="app.js"></script>
 </body>
 
